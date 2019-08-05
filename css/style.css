@@ -500,7 +500,8 @@ h6 {
 --------------------------------*/
 
 #about {
-  padding: 80px 0;
+  padding-top: 150px;
+  padding-bottom: 40px;
 }
 
 #about .about-content {
@@ -537,7 +538,7 @@ h6 {
 
 #about .about-img {
   position: relative;
-  margin: 30px 30px 30px 30px;
+  margin: 120px 30px 30px 30px;
 }
 
 #about .about-img img {
@@ -552,7 +553,7 @@ h6 {
   transform: scale(1.03);
 }
 
-#about .about-img::before {
+/* #about .about-img::before {
   position: absolute;
   left: -31px;
   top: -30px;
@@ -574,7 +575,7 @@ h6 {
   content: '';
   background-color: #ebf1fa;
   transition: .5s;
-}
+} */
 
 /* Services Section
 --------------------------------*/
@@ -669,7 +670,7 @@ h6 {
 }
 
 #why-us .counters {
-  padding-top: 40px;
+  padding-top: 0px;
 }
 
 #why-us .counters span {
