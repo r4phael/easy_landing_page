@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164223650-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-164223650-1');
+  </script>
+
+  
   <meta charset="utf-8">
   <title>Easy Engineering and Systems</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -588,7 +599,7 @@
               
               <h4>Entre em Contato</h4>
               <p>Tirem suas dúvidas! Fiquem a vontade para entrar em contato conosco.</p>
-              <form action="" method="post" role="form" class="contactForm">
+              <form action=""  class="contactForm" name="submit-to-google-sheet">
                 <div class="form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Seu Nome" data-rule="minlen:4" data-msg="Por favor, insira pelo menos 4 caracteres." />
                   <div class="validation"></div>
