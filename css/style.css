@@ -553,6 +553,20 @@ h6 {
   transform: scale(1.03);
 }
 
+#about form button[type="submit"] {
+  background: #1bb1dc;
+  border: 0;
+  border-radius: 3px;
+  padding: 8px 30px;
+  color: #fff;
+  transition: 0.3s;
+}
+
+#about form button[type="submit"]:hover {
+  background: #0a98c0;
+  cursor: pointer;
+}
+
 /* #about .about-img::before {
   position: absolute;
   left: -31px;
