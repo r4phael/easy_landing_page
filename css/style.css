@@ -536,9 +536,10 @@ h6 {
   color: #1bb1dc;
 }
 
-#about .about-img {
+
+#about .about-img .covid {
   position: relative;
-  margin: 120px 30px 30px 30px;
+  margin: 30px 30px 30px 30px;
 }
 
 #about .about-img img {
