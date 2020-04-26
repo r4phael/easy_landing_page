@@ -504,9 +504,15 @@ h6 {
   padding-bottom: 40px;
 }
 
+
 #about .about-content {
   padding-top: 40px;
 }
+
+#about .about-content-covid {
+  padding-top: 90px;
+}
+
 
 #about .about-content h2 {
   color: #413e66;
@@ -537,14 +543,17 @@ h6 {
 }
 
 
-#about .about-img .covid {
-  position: relative;
-  margin: 30px 30px 30px 30px;
+#about .about-img-covid img {
+  width: 100%;
+  border: 8px solid #fff;
+  transition: .5s;
 }
 
 #about .about-img img {
   width: 100%;
-  border: 8px solid #fff;
+  border: 30px;
+  margin-top:100px;
+  padding: 50px;
   transition: .5s;
 }
 
